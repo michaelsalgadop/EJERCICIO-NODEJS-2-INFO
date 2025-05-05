@@ -18,7 +18,6 @@ const debug = createDebug("CHATGPT");
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const ruta = path.join(__dirname, "index.js");
 
 debug(chalk.bold.red("Hackeando tu sistema operativo..."));
 
